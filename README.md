@@ -4,7 +4,7 @@ This repository contains a beautiful, responsive personal portfolio built using 
 
 ### Want to watch this?
 
-[![Check this out]([https://img.youtube.com/vi/LGdPMf-SgBA/maxresdefault.jpg](https://drive.google.com/file/d/1ypazvwzxUH2QHA5Uu910Ev039TfHJRdd/view?usp=drive_link))]
+[![Check this out](https://drive.google.com/file/d/1ypazvwzxUH2QHA5Uu910Ev039TfHJRdd/view?usp=drive_link)]
 
 ## Features
 
