@@ -2203,3 +2203,7 @@ footer {
     padding: 10px 15px;
   }
 }
+
+#contact {
+  scroll-margin-top: 80px; /* Adjust this value to match your navbar height */
+}
