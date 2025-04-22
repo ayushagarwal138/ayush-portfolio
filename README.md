@@ -13,80 +13,60 @@ This repository contains a beautiful, responsive personal portfolio built using 
 - **Interactive UI:** Dynamic components, animated loading screens, and a mobile-friendly hamburger menu.
 - **Performance-Oriented:** Powered by Vite for blazing-fast builds and TailwindCSS for highly customizable styling.
 
+- **About Section:** A brief introduction about yourself.
+- **Skills:** Highlight technical and non-technical skills.
+- **Projects:** Showcase your top projects with descriptions and links.
+- **Contact Form:** A form where visitors can reach out to you.
+- **Responsive Design:** A Mobile-friendly design.
+
 ## Technologies
 
-- **React:** Component-based JavaScript library for building UIs.
-- **Vite:** Lightning-fast development server and build tool.
-- **TailwindCSS:** Utility-first CSS framework for rapid styling.
-- **JavaScript (ES6+):** Modern JavaScript practices and clean, maintainable code.
+- **HTML:** For structuring the content of your website.
+- **CSS:** For styling and responsive design.
+- **JavaScript:** For interactivity and dynamic behavior.
 
-## Installation
+## Installation & Deployment
 
-1. **Clone the repository:**
- 
- ```bash
+- Clone the repository and modify the content of index.html according to your requirement.
+  
+- This portfolio can be easily deployed on Vercel for live hosting. Simply follow these steps:
+	1.	Fork or clone the repository.
+	2.	Go to Vercel.
+	3.	Click on New Project and import this repository.
+	4.	Vercel will automatically detect the project settings and deploy it for you.
 
-git clone https://github.com/ayushagarwal138/ayush-portfolio.git
-cd ayush-portfolio
-```
+Once deployed, you’ll have a live version of the portfolio accessible online.
 
-2. **Install dependencies:**
-   
-```bash
-npm install
-```
-
-
-3. **Start the development server:**
-   
-```bash
-npm run dev
-```
-
-The application will run at http://localhost:5173.
-
-## Build
-
-To create a production build:
-
-```bash
-npm run build
-```
-
-To preview the production build:
-
-```bash
-npm run preview
-```
+## Tools Used 🛠️
+* [<b>GitHub</b>](https://github.com/) - To host my static website (HTML, CSS, JS).
+* [<b>Animate on scroll library</b>](https://github.com/michalsnik/aos) - To animate my website while scrolling.
+* [<b>Animista</b>](https://animista.net/) - To use Interactive animations
 
 ## Folder Structure
 
 ```
 ayush-portfolio/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── MobileMenu.jsx
-│   │   ├── LoadingScreen.jsx
-│   │   └── sections/
-│   │       ├── Home.jsx
-│   │       ├── About.jsx
-│   │       ├── Projects.jsx
-│   │       └── Contact.jsx
-│   ├── index.css          # Tailwind base and global styles
-│   ├── App.jsx
-│   └── main.jsx
-├── package.json
-├── vite.config.js
-└── README.md
+├── public/                              # Contains static files that are publicly accessible
+│   └── index.html                       # Main HTML file for the portfolio
+├── src/                                 # Source code for the project
+│   ├── components/                      # Contains reusable components of the portfolio
+│   │   ├── ico                          # Folder for icons used throughout the portfolio
+│   │   ├── logo                         # Folder for logo images
+│   │   ├── mp3                          # Folder for audio files (e.g., background music)
+│   │   ├── pdf                          # Folder for PDF files (e.g., resume, portfolio)
+│   │   ├── projects-img                 # Folder for images related to projects
+│   │   └── svg                          # Folder for SVG files (e.g., vector images)
+│   ├── main.js                          # Main JavaScript file that contains the logic and interactivity
+│   ├── style.css                        # CSS file for styling the portfolio
+│   ├── sitemap.xml                      # Sitemap for SEO optimization
+│   ├── LICENSE                          # License file for the project (e.g., MIT License)
+└── README.md                            # README file containing project description and setup instructions
 ```
 
 ## Customization
 
 - **Styling:** Modify index.css or use Tailwind utility classes in JSX files to personalize the look.
-- **Sections:** Update content in `src/components/sections/` to reflect your own biography, projects, and contact details.
+- **Sections:** Update content in `index.html/` to reflect your own biography, projects, and contact details.
 - **Components:** Tweak or extend components in `src/components/` for additional functionality or different layout.
 
 ## Contributing
