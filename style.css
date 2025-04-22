@@ -2017,3 +2017,189 @@ footer {
         margin-top: 100px;  
     }
 }
+
+/* Contact Me Section */
+.contact-section-container {
+  padding: 50px 20px;
+  background-color: var(--section-bg-color); /* Match the background color of other sections */
+  color: var(--text-color); /* Use consistent text color */
+  scroll-margin-top: 80px; /* Adjust this value to match your navbar height */
+}
+
+.contact-section .section-heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.contact-section .section-heading-article {
+  font-size: 2.5rem;
+  font-family: 'Orbitron', sans-serif; /* Match the font style */
+  color: var(--heading-color); /* Use the same heading color */
+  text-align: center;
+}
+
+.contact-section .sectionHeadingP {
+  width: 300px;
+  height: 1px;
+  background-image: linear-gradient(90deg, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
+  margin-top: 10px;
+}
+
+/* Form Styling */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--form-bg-color); /* Ensure form background contrasts with section */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.contact-form label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: left;
+  color: var(--label-color); /* Match label color */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  border: 2px solid var(--border-color); /* Use consistent border color */
+  border-radius: 10px;
+  background-color: var(--input-bg-color); /* Match input background color */
+  color: var(--text-color); /* Match text color */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--static-heading-gradient-blue); /* Highlight border on focus */
+  box-shadow: 0 0 10px var(--static-heading-gradient-blue); /* Add glow effect */
+  outline: none;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: var(--placeholder-color); /* Ensure placeholder text is visible */
+  font-style: italic;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+/* Button Styling */
+.contact-form .submit-btn {
+  background-image: linear-gradient(90deg, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-position 0.3s ease, transform 0.2s ease;
+  background-size: 200%;
+  background-position: left;
+}
+
+.contact-form .submit-btn:hover {
+  background-position: right; /* Smooth gradient transition */
+  transform: translateY(-3px); /* Lift effect on hover */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+.contact-form .submit-btn:active {
+  transform: translateY(2px); /* Button press effect */
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Light Mode */
+.light-mode .contact-form {
+  background-color: #ffffff; /* Light background for light mode */
+  color: #000000; /* Dark text for light mode */
+}
+
+.light-mode .contact-form input,
+.light-mode .contact-form textarea {
+  background-color: #f9f9f9; /* Light input background */
+  color: #000000; /* Dark text */
+  border: 1px solid #cccccc; /* Light border */
+}
+
+.light-mode .contact-form input::placeholder,
+.light-mode .contact-form textarea::placeholder {
+  color: #888888; /* Light placeholder text */
+}
+
+.light-mode .contact-form .submit-btn {
+  background-image: linear-gradient(90deg, #007bff, #00c6ff); /* Blue gradient for light mode */
+}
+
+/* Dark Mode */
+.contact-form {
+  background-color: #2a003e; /* Purplish background for dark mode */
+  color: #ffffff; /* Light text for dark mode */
+  border: 1px solid #5e239d; /* Add a border with a complementary purple shade */
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #3a004f; /* Slightly darker purple for input fields */
+  color: #ffffff; /* Light text */
+  border: 1px solid #5e239d; /* Purple border for inputs */
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #c4a6e8; /* Light purple placeholder text */
+}
+
+.contact-form .submit-btn {
+  background-image: linear-gradient(90deg, #a64ac9, #d884f5); /* Gradient with purplish tones */
+  color: #ffffff; /* White text for the button */
+}
+
+.contact-form .submit-btn:hover {
+  background-image: linear-gradient(90deg, #d884f5, #a64ac9); /* Reverse gradient on hover */
+  box-shadow: 0 5px 15px rgba(166, 74, 201, 0.5); /* Add a purple glow effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-section-container {
+    padding: 30px 15px;
+  }
+
+  .contact-section .section-heading-article {
+    font-size: 1.8rem;
+  }
+
+  .contact-form {
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .contact-form .submit-btn {
+    font-size: 1rem;
+    padding: 10px 15px;
+  }
+}

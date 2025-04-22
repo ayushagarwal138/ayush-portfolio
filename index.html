@@ -2,12 +2,6 @@
 <html lang="en">
 
 <head>
-  <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
-  <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
-  <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
-  <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YMWDE0VTD3"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -17,14 +11,6 @@
 
     gtag("config", "G-YMWDE0VTD3");
   </script>
-  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-  <meta name="google-site-verification" content="zMNl24ruDnyqiliYwKNU_r09OkPCDKz0kMBtF9nqiCc" />
-  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
 
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -34,19 +20,18 @@
   <meta name="description"
     content="Ayush Agarwal | Portfolio, Visit and know about me & my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions." />
   <meta name="keywords"
-    content="vinod jangid,vinod jangid portfolio,Vinod Jangid Portfolio,vinodjangid,vinod jangid site,Vinod Jangid Site,vinod jangid me,vinod jangid web,vinod jangid github,vinodjangid site,vinodjangid uiverse,uiverse,vinod jangid uiverse,vinod jangid frontend developer,frontend developer,vinod jangid jaipur,vinod jaipur" />
-  <meta name="author" content="Vinod Jangid" />
+    content="Ayush Agarwal" />
+  <meta name="author" content="Ayush Agarwal" />
   <meta property="og:image" content="https://www.vinodjangid.site/src/png/Preview-card-min.png" />
   <meta property="og:title" content="Ayush Agarwal | Portfolio" />
   <meta property="og:description"
     content="Hi! My name is Vinod. I'm a web developer and digital visual artist. Visit and know about me & my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions." />
 
-  <meta property="og:url" content="https://vinodjangid.site" />
-  <meta property="og:site_name" content="Vinod Jangid Portfolio" />
+  <meta property="og:site_name" content="Ayush Agarwal Portfolio" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@Vinod_Jangid07" />
-  <meta name="twitter:title" content="Vinod Jangid | Portfolio" />
+  <meta name="twitter:title" content="Ayush Agarwal | Portfolio" />
   <meta name="twitter:description"
   content="Hi! My name is Vinod. I'm a web developer and digital visual artist. Visit and know about me & my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions." />
   <meta name="twitter:image" content="https://www.vinodjangid.site/src/png/Preview-card-min.png" />
@@ -73,7 +58,7 @@
 
     <div class="navbar" id="navbar">
       <div class="hey">Hey!</div>
-      <div class="logo" tabindex="0" aria-label="vinod jangid logo">
+      <div class="logo" tabindex="0" aria-label="Ayush Agarwal logo">
         <div class="logo-top">
           <img src="src/png/nav-avatar.png" alt="animation-head" id="nav-avatar"/>
         </div>
@@ -103,6 +88,12 @@
               &#60;/Projects&#62;
             </a>
           </li>
+
+          <li class="contactme" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+            <a href="#contactme" aria-label="contactme menu button">
+              &#60;/Contact me&#62;
+            </a>
+          </li>
         </ul>
       </div>
       <!-- navbar tabs ends -->
@@ -118,6 +109,7 @@
           <span class="burger-bar" id="burger-bar1"></span>
           <span class="burger-bar" id="burger-bar2"></span>
           <span class="burger-bar" id="burger-bar3"></span>
+          <span class="burger-bar" id="burger-bar4"></span>
         </button>
       </div>
     </div>
@@ -143,6 +135,11 @@
         <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
           <a href="#projects" tabindex="0" aria-label="projects menu button">
             &#60;/Projects&#62;
+          </a>
+        </li>
+        <li id="contactme-mobile-tab" class="contactme-navbar-tabs-li projects" onclick="hidemenubyli()">
+          <a href="#contactme" tabindex="0" aria-label="projects menu button">
+            &#60;/Contact me&#62;
           </a>
         </li>
       </ul>
@@ -491,6 +488,30 @@
           </div>
           <!-- ---------------------- -->
         </div>
+      </div>
+    </section>
+
+
+    <section id="contactme" class="contact-section-container" >
+      <div class="contact-section">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="Contact me heading">
+            &#60;/Contact Me&#62;
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+        <form id="contact-form" class="contact-form" data-aos="fade-up">
+          <label for="full-name">Full Name:</label>
+          <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required />
+    
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+    
+          <label for="description">Description:</label>
+          <textarea id="description" name="description" placeholder="Enter your message" required></textarea>
+    
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
       </div>
     </section>
   </main>
