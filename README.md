@@ -50,16 +50,16 @@ ayush-portfolio/
 │   └── index.html                       # Main HTML file for the portfolio
 ├── src/                                 # Source code for the project
 │   ├── components/                      # Contains reusable components of the portfolio
-│   │   ├── ico                          # Folder for icons used throughout the portfolio
-│   │   ├── logo                         # Folder for logo images
-│   │   ├── mp3                          # Folder for audio files (e.g., background music)
-│   │   ├── pdf                          # Folder for PDF files (e.g., resume, portfolio)
-│   │   ├── projects-img                 # Folder for images related to projects
-│   │   └── svg                          # Folder for SVG files (e.g., vector images)
-│   ├── main.js                          # Main JavaScript file that contains the logic and interactivity
-│   ├── style.css                        # CSS file for styling the portfolio
-│   ├── sitemap.xml                      # Sitemap for SEO optimization
-│   ├── LICENSE                          # License file for the project (e.g., MIT License)
+│       ├── ico                          # Folder for icons used throughout the portfolio
+│       ├── logo                         # Folder for logo images
+│       ├── mp3                          # Folder for audio files (e.g., background music)
+│       ├── pdf                          # Folder for PDF files (e.g., resume, portfolio)
+│       ├── projects-img                 # Folder for images related to projects
+│       └── svg                          # Folder for SVG files (e.g., vector images)
+│── main.js                              # Main JavaScript file that contains the logic and interactivity
+│── style.css                            # CSS file for styling the portfolio
+│── sitemap.xml                          # Sitemap for SEO optimization
+│── LICENSE                              # License file for the project (e.g., MIT License)
 └── README.md                            # README file containing project description and setup instructions
 ```
 
