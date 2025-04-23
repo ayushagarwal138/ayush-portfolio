@@ -752,6 +752,40 @@ noscript {
     }
 }
 
+@keyframes jello-vertical {
+
+    0%,
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+
+    30% {
+        -webkit-transform: scale3d(.75, 1.25, 1);
+        transform: scale3d(.75, 1.25, 1)
+    }
+
+    40% {
+        -webkit-transform: scale3d(1.25, .75, 1);
+        transform: scale3d(1.25, .75, 1)
+    }
+
+    50% {
+        -webkit-transform: scale3d(.85, 1.15, 1);
+        transform: scale3d(.85, 1.15, 1)
+    }
+
+    65% {
+        -webkit-transform: scale3d(1.05, .95, 1);
+        transform: scale3d(1.05, .95, 1)
+    }
+
+    75% {
+        -webkit-transform: scale3d(.95, 1.05, 1);
+        transform: scale3d(.95, 1.05, 1)
+    }
+}
+
 #info-para {
     width: 75%;
     padding-top: 30px;
@@ -1116,6 +1150,14 @@ footer {
 }
 
 .projects-section-container {
+    padding: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+
+.contact-section-container {
     padding: 150px 0;
     display: flex;
     align-items: center;
@@ -1991,17 +2033,10 @@ footer {
 
 /* Contact Me Section */
 .contact-section-container {
-  display: flex; /* Enable Flexbox */
-  flex-direction: column; /* Stack content vertically */
-  align-items: center; /* Center horizontally */
-  justify-content: center; /* Center vertically */
   padding: 50px 20px;
   background-color: var(--section-bg-color); /* Match the background color of other sections */
   color: var(--text-color); /* Use consistent text color */
   scroll-margin-top: 80px; /* Adjust this value to match your navbar height */
-  width: 100%; /* Ensure full width */
-  height: 100vh; /* Make the section take full viewport height */
-  box-sizing: border-box; /* Include padding in width calculation */
 }
 
 .contact-section .section-heading {
@@ -2029,7 +2064,7 @@ footer {
 
 /* Form Styling */
 .contact-form {
-  max-width: 100%; /* Allow the form to take full width */
+  max-width: 600px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -2038,8 +2073,6 @@ footer {
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
-  width: 100%; /* Ensure the form spans the full width */
-  box-sizing: border-box; /* Include padding in width calculation */
 }
 
 .contact-form label {
