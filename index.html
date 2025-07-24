@@ -494,17 +494,17 @@
           </h2>
           <p class="sectionHeadingP"></p>
         </div>
-        <form id="contact-form" class="contact-form" data-aos="fade-up">
+        <form id="contact-form" class="contact-form" data-aos="fade-up" novalidate>
           <label for="full-name">Full Name:</label>
-          <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required />
+          <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required minlength="2" maxlength="50" />
     
           <label for="email">Email Address:</label>
           <input type="email" id="email" name="email" placeholder="Enter your email address" required />
     
-          <label for="description">Description:</label>
-          <textarea id="description" name="description" placeholder="Enter your message" required></textarea>
+          <label for="description">Message:</label>
+          <textarea id="description" name="description" placeholder="Enter your message" required minlength="10" maxlength="1000" rows="5"></textarea>
     
-          <button type="submit" class="submit-btn">Submit</button>
+          <button type="submit" class="submit-btn">Send Message</button>
         </form>
       </div>
     </section>

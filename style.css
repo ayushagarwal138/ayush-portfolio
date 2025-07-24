@@ -102,7 +102,17 @@ html {
     --static-heading-gradient-pink: #ffcfdf;
     --tech-stack-box-first-color: #1a1a29;
     --tech-stack-box-second-color: rgba(27, 27, 40, 0);
-    --tech-stack-box-border-color: #292929
+    --tech-stack-box-border-color: #292929;
+    
+    /* Contact Form Variables */
+    --section-bg-color: #11111b;
+    --text-color: #fff;
+    --heading-color: #fff;
+    --form-bg-color: #2a003e;
+    --label-color: #fff;
+    --border-color: #5e239d;
+    --input-bg-color: #3a004f;
+    --placeholder-color: #c4a6e8;
 }
 
 #hello-friend,
@@ -187,7 +197,17 @@ html {
     --color-shadowDark: #e2ddd7;
     --tech-stack-box-first-color: #e7e2db;
     --tech-stack-box-second-color: #ece7e100;
-    --tech-stack-box-border-color: #dad5cf
+    --tech-stack-box-border-color: #dad5cf;
+    
+    /* Contact Form Variables - Light Mode */
+    --section-bg-color: #ece7e1;
+    --text-color: #000;
+    --heading-color: #000;
+    --form-bg-color: #ffffff;
+    --label-color: #000;
+    --border-color: #cccccc;
+    --input-bg-color: #f9f9f9;
+    --placeholder-color: #888888;
 }
 
 .setting-container {
