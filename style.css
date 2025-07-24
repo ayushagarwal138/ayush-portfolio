@@ -1949,10 +1949,6 @@ footer {
         padding-left: 50px
     }
 
-    .image-div img {
-        border-top-left-radius: 10px
-    }
-
     .tech-stack-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -2003,7 +1999,8 @@ footer {
     }
 
     .footer-bottom article {
-        font-size: 1.3rem
+        font-size: 1.3rem;
+        color: #b0b0b0
     }
 
     .logos {
@@ -2051,35 +2048,42 @@ footer {
     }
 }
 
-/* Contact Me Section */
+/* --- Improved Contact Me Section --- */
 .contact-section-container {
-  padding: 50px 20px;
-  background-color: var(--section-bg-color); /* Match the background color of other sections */
-  color: var(--text-color); /* Use consistent text color */
-  scroll-margin-top: 80px; /* Adjust this value to match your navbar height */
+  padding: 80px 0;
+  background: var(--section-bg-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-section .section-heading {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .contact-section .section-heading-article {
-  font-size: 2.5rem;
-  font-family: 'Orbitron', sans-serif; /* Match the font style */
-  color: var(--heading-color); /* Use the same heading color */
+  font-size: 2.8rem;
+  font-family: 'Orbitron', sans-serif;
+  color: var(--heading-color);
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .contact-section .sectionHeadingP {
-  width: 300px;
-  height: 1px;
+  width: 100px;
+  height: 2px;
   background-image: linear-gradient(90deg, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
-  margin-top: 10px;
+  margin: 0 auto;
 }
 
 /* Form Styling */
@@ -2240,4 +2244,8 @@ footer {
 
 #contact {
   scroll-margin-top: 80px; /* Adjust this value to match your navbar height */
+}
+
+#home, #about, #skills, #projects, #contactme {
+  scroll-margin-top: 120px; /* Adjust to match your navbar height */
 }
